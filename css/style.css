@@ -16,13 +16,6 @@ body
 	margin:20px auto
 }
 
-@media (max-width: 600px) {
-	body
-	{
-		width:90%
-	}
-}
-
 #container
 {
 	border-radius:15px;
@@ -31,13 +24,6 @@ body
 	background-color: var(--red-color);
 	margin:0 auto;
 	text-align:center
-}
-
-@media (max-width: 600px) {
-	#container
-	{
-		width:100%
-	}
 }
 
 #texto
@@ -67,17 +53,10 @@ body
 	background-color:#000;
 	display:inline-block;
 	margin:0 auto;
-	color:#E0E1EA;
+	color:#ffffff;
 	border-radius:30px;
 	text-decoration:none;
 	z-index:5
-}
-
-@media (max-width: 600px) {
-	#container ul li a
-	{
-		width:90%
-	}
 }
 
 #container ul li a:hover
@@ -88,5 +67,20 @@ body
 	-webkit-backdrop-filter:blur(5px);
 	border-radius:30px;
 	font-weight:700;
-	color:var(--text-color);
+	color:black;
+}
+
+@media (max-width: 600px) {
+	body
+	{
+		width:90%
+	}
+	#container
+	{
+		width:100%
+	}
+	#container ul li a
+	{
+		width:90%
+	}
 }
