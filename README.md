@@ -1,5 +1,9 @@
 ### 🖥 Organizador de Links
 
+---
+
+Um organizador de links feito com **HTML** e **CSS**
+
 <!--
 **SureAndrey/sureandrey** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
