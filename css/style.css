@@ -79,6 +79,12 @@ nav a:hover {
   box-shadow: 0px 17px 50px 4px rgba(0,0,0,0.25);
 }
 
+/* FOOTER */
+
+footer {
+  margin-bottom: 90px;
+}
+
 footer a {
   color: var(--primary);
 }
