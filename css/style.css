@@ -18,6 +18,8 @@ body {
   background-color: var(--secondary);
 }
 
+
+
 #container {
   width: 100%;
   display: flex;
@@ -46,9 +48,9 @@ p {
 nav {
   width: 720px;
   margin: 0 auto;
-  background-color: var(--red-color);
   border-radius: 20px;
   box-sizing: border-box;
+  background-color: var(--red-color);
 }
 
 
@@ -61,12 +63,12 @@ nav ul {
 }
 
 nav a {
-  background-color: var(--secondary);
   color: var(--primary);
   display: block;
   padding: 40px 0;
   text-decoration: none;
   border-radius: 10px;
+  background:var(--secondary); 
 }
 
 nav a:hover {
@@ -74,7 +76,7 @@ nav a:hover {
   background-color: var(--primary);
   font-weight: bold;
   -webkit-box-shadow: 0px 17px 50px 4px rgba(0,0,0,0.25); 
-  box-shadow: 0px 17px 50px 4px rgba(0,0,0,0.25);sho
+  box-shadow: 0px 17px 50px 4px rgba(0,0,0,0.25);
 }
 
 footer a {
