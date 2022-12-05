@@ -46,7 +46,7 @@ p {
 /* NAV */
 
 nav {
-  width: 720px;
+  width: 500px;
   margin: 0 auto;
   border-radius: 20px;
   box-sizing: border-box;
@@ -89,7 +89,7 @@ footer a {
   color: var(--primary);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 500px) {
   nav {
     width: 90%;
   }
