@@ -11,7 +11,8 @@
 }
 
 html {
-  font-family: 'Fira Code', monospace;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 body {
@@ -35,10 +36,12 @@ header {
 header h1 {
   color: var(--primary);
   font-weight: bold;
+  font-size: 40px;
 }
 
 p {
   color: var(--primary);
+  font-size: 20px;
  
 }
 
