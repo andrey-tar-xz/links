@@ -52,7 +52,6 @@ nav {
   margin: 0 auto;
   border-radius: 20px;
   box-sizing: border-box;
-  background: rgba(252,70,107,1);
   background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   background-size: 200% 200%;
   animation: gradient 8s ease infinite; 
@@ -114,9 +113,16 @@ footer a {
 @media (max-width: 500px) {
   nav {
     width: 90%;
+    animation: none;
+    animation-delay: none;
+    background: linear-gradient(190deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   }
 
   nav ul {
     margin: 25px;
+  }
+
+  nav a:hover {
+    transform: scale(1);
   }
 }
