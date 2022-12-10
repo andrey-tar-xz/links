@@ -17,38 +17,51 @@ html {
 
 body {
   background-color: var(--secondary);
+  display: flex;
+  justify-content: center;
 }
 
 #container {
-  width: 100%;
+  width: 500px;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  margin-top: 90px;
   gap: 90px;
 }
 
 /* HEADER */
 
-header {
-  margin-top: 90px;
+header #perfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-header h1 {
+header #perfil_text {
+  padding-bottom: 10px;
+}
+
+header #perfil #perfil_text h1 {
   color: var(--primary);
-  font-weight: bold;
-  font-size: 40px;
+  font-size: 35px;
+}
+
+header  > #perfil > #perfil_img img {
+  width: 120px;
+  margin-right: 30px;
+  border-radius: 50%;
+  position: relative;
 }
 
 p {
   color: var(--primary);
   font-size: 20px;
- 
 }
 
 /* NAV */
 
 nav {
-  width: 500px;
+  width: 90%;
   margin: 0 auto;
   border-radius: 20px;
   box-sizing: border-box;
@@ -57,6 +70,7 @@ nav {
   animation: gradient 8s ease infinite; 
   animation-delay: -1s;
   height: 100%;
+  text-align: center;
 }
 
 @keyframes gradient {
@@ -104,6 +118,7 @@ nav a:hover {
 
 footer {
   margin-bottom: 90px;
+  text-align: center;
 }
 
 footer a {
@@ -111,8 +126,27 @@ footer a {
 }
 
 @media (max-width: 500px) {
-  nav {
+  #container {
     width: 90%;
+  }
+  header {
+    margin: 90px auto 0px auto;
+    width: 90%;
+  }
+
+  header #perfil #perfil_img img {
+    width: 100px;
+  }
+
+  header #perfil #perfil_text h1 {
+    font-size: 30px;
+  }
+  header #perfil #perfil_text p {
+    font-size: 15px;
+  }
+
+  nav {
+    width: 100%;
     animation: none;
     animation-delay: none;
     background: linear-gradient(190deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
