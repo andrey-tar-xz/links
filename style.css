@@ -22,6 +22,7 @@ body {
 }
 
 #container {
+  margin-top: 90px;
   width: 500px;
   display: flex;
   flex-direction: column;
@@ -129,6 +130,7 @@ footer a {
 
 @media (max-width: 500px) {
   #container {
+    margin-top: 0;
     width: 90%;
   }
   header {
