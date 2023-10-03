@@ -22,11 +22,11 @@ body {
 }
 
 #container {
-  margin-top: 90px;
+  margin-top: 30px;
   width: 500px;
   display: flex;
   flex-direction: column;
-  gap: 90px;
+  gap: 30px;
 }
 
 /* HEADER */
